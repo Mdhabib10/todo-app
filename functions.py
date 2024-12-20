@@ -1,3 +1,4 @@
+filePath = 'todos.tx'
 def get_todos(filePath):
     with open(filePath, 'r') as file:
         todos_list = file.readlines()
